@@ -1,0 +1,2 @@
+const mongoose=require('mongoose');
+module.exports=mongoose.model('Food',new mongoose.Schema({title:String,description:String,category:String,quantity:Number,expiryTime:Date,status:String,location:String,donor:String,claimedBy:String},{timestamps:true}));
