@@ -1,4 +1,4 @@
-import { getListings } from "./api/api";
+
 import React, { useState, useMemo, useEffect } from 'react';
 import {
   Utensils, MapPin, Users, Award, TrendingUp, Activity, Search, Plus, Bell,
