@@ -10,3 +10,8 @@ useEffect(() => {
       console.error(error);
     });
 }, []);
+import.meta.env.VITE_API_URL;
+export const getListings = async () => {
+  const response = await fetch(`${API_URL}/api/listings`);
+  return response.json();
+};
